@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
 		int i, max, ans;
 		max = 0;
 		
-		scanf("%c", &data);
+		data = getchar();
 				
 		while(data != EOF){
 			data = data - '0';
@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 					ans = data;
 				}
 			}
-			scanf("%c", &data);
+			data = getchar();
 		}
 		
 		printf("%d\n", ans);
