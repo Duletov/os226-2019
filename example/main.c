@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
 		
 		scanf("%c", &data);
 				
-		while(data != '\0'){
+		while(data != EOF){
 			data = data - '0';
 			if((data >= 0) && (data <= 9)){
 				students[data] += 1;
